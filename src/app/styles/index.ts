@@ -39,6 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: ${montserrat.style.fontFamily};
+    overflow-x: hidden;
   }
   /*
     6. Improve media defaults
@@ -68,5 +69,9 @@ export const GlobalStyle = createGlobalStyle`
   */
   #root, #__next {
     isolation: isolate;
+  }
+
+  main {
+    position: absolute;
   }
 `
