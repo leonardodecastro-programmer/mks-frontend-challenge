@@ -18,10 +18,10 @@ export default function CartNav() {
 
   return (
     <motion.div
-      initial={{ x: isVisible ? '-100%' : '-100%' }}
-      animate={{ x: isVisible ? '-100%' : '-100%' }}
+      initial={{ x: isVisible ? 0 : '-100%' }}
+      animate={{ x: isVisible ? 0 : '-100%' }}
       exit={{ x: 0 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 1.3 }}
     >
       <S.CartNav>
         <h1>Carrinho de compras</h1>

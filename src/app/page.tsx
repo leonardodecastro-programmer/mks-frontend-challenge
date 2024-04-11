@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <Products />
       <Footer />
+      <CartNav />
     </main>
   )
 }
